@@ -1,0 +1,266 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ :root{
+    --cyan:#00d5ff;
+    --white-100:white;
+    --white-200:rgb(233, 233, 233);
+    --white-300:rgb(201, 200, 200);
+    --red:Red;
+    --orange:rgb(255, 166, 0);
+    --black-100:black;
+    --black-200:rgb(50, 50, 50);
+    --black-300:rgb(131, 131, 131);
+    --grey-100:rgb(216, 216, 216);
+    --grey-200:rgb(198, 198, 198);
+    
+    --font-size-8:8px
+    --font-size-16: 16px;
+    --font-size-20: 20px;
+    --font-size-22:22px;
+    --font-size-24: 24px;
+    --font-size-32: 32px;
+    --font-size-40: 40px;
+    --font-size-48:48px;
+    
+    --border-raduis-20:20px;
+    --border-raduis-30:30px;
+    
+
+}
+
+.cyan{
+ color:var(--cyan);
+}
+.white{
+    color:var(--white-100) ;
+}
+.black{
+    color: (var(--black-100));
+}
+.orange{
+  color: var(--orange);
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+    color: var(--white-200);
+}
+.heading{
+    font-size: var(--font-size-20);
+    font-weight: 100;
+}
+.heading-small{
+    font-size: var(--font-size-16);
+    color: var(--black-200);
+}
+.heading-big{
+    font-size: var(--font-size-24);
+}
+
+.txt{
+    font-size: var(--font-size-16);
+}
+.txt-small{
+    font-size: var(--font-size-8);
+}
+
+.txt-big{
+    font-size: var(--font-size-22);
+}
+  .mg-top-10{
+    margin-top: 10px;
+  }
+  .mg-top-16 {
+    margin-top: 16px   ;
+  }
+  .mg-top-32 {
+    margin-top: 2rem ;
+  }
+  .mg-top-48 {
+    margin: 3rem;
+  }
+  .mg-bottom-10 {
+    margin-bottom: 10px;
+  }
+  .mg-bottom-16 {
+    margin-bottom: 16px;
+  }
+  .mg-bottom-32 {
+    margin-bottom: 2rem;
+  }
+  .mg-bottom-16 {
+    margin-bottom: 3rem;
+  }
+  .detial-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+  }
+
+
+  
+.profile{
+    width: 100%;
+    height: 100%;
+    display: flex;
+     align-items: center;
+    column-gap: 16px;
+}
+.profile >img{
+    max-width: 30px;
+    height: 30px;
+}
+.box-one{
+  width: 700px;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+.img{
+  max-width: 100%;
+  height: 100%;
+  
+ }
+ .img > img{
+   max-width: 100%;
+   object-fit: cover;
+ }
+ 
+
+ .box-two{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  column-gap: 1rem;
+  
+ }
+ .box-two >.heading-small{
+  border-left:5px solid gold;
+  padding-left: 10px;
+  font-weight: 100;
+
+ }
+ .img-and-text{
+  padding: 16px 0px;
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid rgb(254, 212, 212);
+ 
+}
+.img-and-text>img{
+  max-width:120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.a-and-p>a{
+  color: #00d5ff;
+  padding: 0 10px;
+}
+h5{
+  font-size: var(--font-size-18);
+  padding: 0 10px;
+}
+.seemore-btn>a{
+  color: #00d5ff;
+}
+.copy-right>h3{
+  font-family: "koulen",sans-serif;
+  font-weight: 100;
+  text-align: center;
+  background-color: #ffffff;
+}
+.detail-flex-card{
+  margin:1rem 18rem ;
+  display: flex;
+  flex-direction:row ;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  padding: 0 0 2rem;
+ }
+ .detail-flex-card>.box{
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+  
+.img-box{
+  position: relative;
+  max-width: 100%;
+  height: 100%; 
+  border-radius: 10px;
+  object-fit: cover;
+  
+}
+
+.img-box img{
+width:270px ;
+height: 240px;
+object-fit: cover; 
+border-radius: 10px;
+
+}
+
+  .img-box .btn{
+      position: absolute;
+      left: 4px;
+      bottom: -30px;
+  }
+  .text-box{
+      margin-top:20px ;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+     padding: 10px;
+  }
+  .text-box >h1{
+      font-size: 2.5rem;
+      padding: 0px 16px;
+      text-align: center;
+   
+  }
+  .text-box >h5{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Koulen", sans-serif;
+      font-weight: 100;
+     
+     
+  }
+  p{
+      font-family: "Kantumruy Pro", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+      padding:0px 16px 16px ;
+  } 
+  #Pop-add{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.275);
+    height: 100vh;
+}
+#img-box{
+
+    position: fixed;
+    top:-20%;
+    left: 50%;
+    transform:translate(-50%,50%);
+}
+#counterDiv{
+  font-weight: 100;
+  color: rgb(255, 254, 254);
+}
